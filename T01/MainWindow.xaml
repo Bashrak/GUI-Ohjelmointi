@@ -1,0 +1,22 @@
+﻿<Window x:Class="T01.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:T01"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="277.515" Width="292.012">
+    <Grid>
+        <StackPanel x:Name="mySp">
+            <CheckBox x:Name="chkMilk" Content="Milk" HorizontalAlignment="Left" Margin="10,5,0,5" VerticalAlignment="Top"/>
+            <CheckBox x:Name="chkButter" Content="Butter" HorizontalAlignment="Left" Margin="10,5,0,5" VerticalAlignment="Top"/>
+            <CheckBox x:Name="chkBeer" Content="Beer" HorizontalAlignment="Left" Margin="10,5,0,5" VerticalAlignment="Top"/>
+            <CheckBox x:Name="chkChicken" Content="Chicken" HorizontalAlignment="Left" Margin="10,5,0,5" VerticalAlignment="Top"/>
+            <CheckBox x:Name="chkLemonade" Content="Lemonade" HorizontalAlignment="Left" Margin="10,5,0,5" VerticalAlignment="Top"/>
+            <Button x:Name="btnBuy" Content="Buy" Margin="10,0,202,0" RenderTransformOrigin="0.836,0.529" Click="btnBuy_Click"/>
+            <TextBlock x:Name="txbShopping" TextWrapping="Wrap" Text="Shopping List" Margin="10"/>
+            <TextBox x:Name="txtShopping" Height="50" TextWrapping="Wrap" Margin="5" Text="ööö"/>
+        </StackPanel>
+        
+    </Grid>
+</Window>
