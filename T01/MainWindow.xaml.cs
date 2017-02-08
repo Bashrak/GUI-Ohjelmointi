@@ -30,8 +30,8 @@ namespace T01
         private void btnBuy_Click(object sender, RoutedEventArgs e)
         {
              
-            string s = "";
-            txtShopping.Text = "";
+            string s = " ";
+            txtShopping.Text = " ";
             foreach (object control in mySp.Children)
             {
                 if (control is CheckBox)
